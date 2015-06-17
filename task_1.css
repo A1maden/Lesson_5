@@ -5,27 +5,29 @@
 	height: 43px;
 	margin-left: -8px;
 	margin-right: -8px;
+	
 
 }
 
 
 .menu
 {
-	
 	width: 900px;
 	font-family: Abadi MT Condensed Light;
-	font-size: 20px;
+	font-size: 14px;
 	color: white;
 	margin: auto;
 	box-sizing: content-box;
 }
 
+
 li
 {
 	display: inline-block;
-	float: left;
-	padding: 10px 34px 10px 0px;
+	padding-left: 10px;
+	vertical-align: middle;
 }
+
 	
 .menu_travels
 {
@@ -34,16 +36,4 @@ li
 	padding-left: 15px;
 	padding-right: 15px;
 
-
-}
-
-/*так как в задании небыло точного определения что 
-делать из пунктом меню MORE, я сделал абсолютное 
-позиционирование и закрепил к правому краю с отступом 
-от него в размере 50 пикселей*/
-
-.menu_more
-{
-	position: absolute;
-	right: 50px;
 }
