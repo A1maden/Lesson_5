@@ -1,11 +1,11 @@
 .container
 {
-	background: #aa7adb;
+	background: #1aa4ff;
 	width: auto;
-	height: 43px;
+	height: 40px;
 	margin-left: -8px;
 	margin-right: -8px;
-	
+	text-align: center;
 
 }
 
@@ -14,26 +14,62 @@
 {
 	width: 900px;
 	font-family: Abadi MT Condensed Light;
-	font-size: 14px;
+	font-size: 20px;
 	color: white;
-	margin: auto;
 	box-sizing: content-box;
+	margin: 0 auto;
 }
 
 
-li
+.menu li
 {
 	display: inline-block;
 	padding-left: 10px;
-	vertical-align: middle;
+	height: 40px;
+	line-height: 40px;
 }
 
 	
-.menu_travels
+.menu li:hover
 {
 	background: #eeeeee;
 	color: #a0a0a0;
 	padding-left: 15px;
 	padding-right: 15px;
+	text-align: center;
+	margin-left: 5px; 
 
 }
+
+
+.menu li:hover .menu_hidden
+{
+	visibility: visible;
+}
+
+.menu_hidden
+{
+	visibility: hidden;
+	position: absolute;
+	background: #eeeeee;
+	top: 48px;
+	left: 0;
+	right:0;
+	height: 40px;
+    width: auto;
+	font-family: Abadi MT Condensed Light;
+	font-size: 16px;
+	color: #888886;
+	text-align: center;
+}
+
+
+.menu_hidden li
+{
+
+	display: inline-block;
+	padding-left: 5px;
+
+}
+
+

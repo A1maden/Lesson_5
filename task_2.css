@@ -1,0 +1,57 @@
+.container
+{
+	position: relative;
+	width: 300px;
+	height: 470px;
+	background: #ee8129;
+	border-radius: 5px;
+	text-align: center;
+
+}
+
+.header
+{
+	font-style: bold;
+	font-family: Trebuchet MS;
+	font-size: 24px;
+	color: white;
+}
+
+.whitefiled
+{
+	position: absolute;
+	width: 290px;
+	height: 390px;
+	background: #ffffff;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 45px;
+}
+
+li
+{
+	list-style-type: none;
+}
+
+.inblock_iconik
+{
+	font-style: normal;
+	font-family: Trebuchet MS;
+	font-size: 24px;
+}
+
+.inblock_sallary
+{
+	font-style: bold;
+	font-family: Trebuchet MS;
+	font-size: 72px;
+	color: #35495a;
+}
+
+sup, sub
+{
+	font-style: normal;
+	font-family: Trebuchet MS;
+	font-size: 18px;
+	color: #35495a;
+}
