@@ -6,7 +6,6 @@
 	background: #ee8129;
 	border-radius: 5px;
 	text-align: center;
-
 }
 
 .header
@@ -41,7 +40,6 @@ li
 	font-size: 24px;
 	padding-bottom: 20px;
 	margin-right: 35px;
-
 }
 
 .inblock_sallary
@@ -84,7 +82,6 @@ sup, sub
 	margin-bottom: 1px;
 	padding-top: 5px;
 	text-align: left;
-
 }
 
 .inblock_descrioption_blue
@@ -113,6 +110,4 @@ sup, sub
 	-webkit-box-shadow: 0px 3px 0px 0px rgba(179,86,11,1);
 	-moz-box-shadow: 0px 3px 0px 0px rgba(179,86,11,1);
 	box-shadow: 0px 3px 0px 0px rgba(179,86,11,1);
-
-
 }
